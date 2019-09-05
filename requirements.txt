@@ -1,9 +1,0 @@
-
-# Dev/Deployment
-pytest
-pytest-runner
-pypi-publisher
-pylint
-# Install
-python-jss
-keyring
