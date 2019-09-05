@@ -3,13 +3,8 @@ FROM ruby
 RUN gem install ruby-jss
 RUN apt-get -y install git
 
-COPY . /app
+COPY ./rsync /usr/bin/
 WORKDIR /app
-
-CMD ["/app/sync.rb", "-v"]
-
-#COPY . /app
-#WORKDIR /app
 
 #RUN apt-get -y update \
 #    && apt-get -y upgrade \
