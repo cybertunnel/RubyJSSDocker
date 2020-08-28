@@ -1,4 +1,4 @@
-FROM ruby
+FROM ruby:2.7.1-buster
 
 RUN gem install ruby-jss
 RUN apt-get -y update \
