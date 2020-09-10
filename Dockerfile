@@ -1,4 +1,4 @@
-FROM ruby:2.7.1-slim-buster
+FROM ruby:2.7.1-buster
 
 COPY ./ruby-jss-1.3.3.gem /tmp/ruby-jss-1.3.3.gem
 
